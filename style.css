@@ -7,3 +7,19 @@
 .bb{
     background: rgba(255, 150, 13, 0.705);
 }
+input:focus{
+    font-weight: 600;
+    font-size: 20px;
+    color: crimson;
+
+}
+li:first-child{
+    background-color: rgba(0, 255, 255, 0.527);
+    font-family: Verdana, Geneva;
+}
+li:last-child{
+    background-color: rgba(153, 50, 204, 0.568);
+}
+li:nth-child(2n){
+    background-color: rgba(255, 20, 145, 0.527);
+}
