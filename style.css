@@ -40,3 +40,17 @@ h2::before{
     background-color: rgba(153, 50, 204, 0.699);
 }
 
+body {
+    /* Set "my-sec-counter" to 0 */
+    counter-reset: my-sec-counter;
+  }
+  
+  p::before {
+    /* Increment "my-sec-counter" by 1 */
+    counter-increment: my-sec-counter;
+    content: "leather" counter(my-sec-counter) ". ";
+    background-color: rgba(217, 255, 0, 0.74);
+  }
+  h3::before{
+      content: "📌"; /* adding emoji*/
+  }
